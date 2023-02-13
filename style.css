@@ -33,4 +33,33 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 33px;
+    float: right;
+}
+.img{
+    width: 570px;
+}
+.img img{
+    width: 570px;
+    height: 723;
+}
+.About{
+    width: 570px;
+}
+.info-container{
+    display: flex;
+}
+.service{
+    display: flex;
+    margin-top: 15px;
+
+}
+.About{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.About-titel{
+    font-size: 40px;
+}
+.About p{
+    margin-top: 24px;
 }
