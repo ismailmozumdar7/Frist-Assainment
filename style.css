@@ -84,12 +84,57 @@
 }
 .card-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .card{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .card h3{
     font-weight: bold;
     font-size: 20px;
+}
+
+/* adds */
+
+.adds-container{
+    background-image: url(./images/watch.png);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.adds-info{
+    background-image: url(./images/gradient2.png);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info-item{
+    width: 459px;
+    padding-left: 64px;
+    padding-top: 59px;
+}
+
+.info-item h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.info-item button{
+    border: none;
+    background-color: white;
+    
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #F15B22;
+    font-weight: bold;
+    margin-top: 24px;
 }
