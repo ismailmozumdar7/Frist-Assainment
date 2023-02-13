@@ -127,7 +127,6 @@
 .info-item button{
     border: none;
     background-color: white;
-    
     padding-left: 36px;
     padding-right: 36px;
     padding-top: 20px;
@@ -137,4 +136,61 @@
     color: #F15B22;
     font-weight: bold;
     margin-top: 24px;
+}
+/* footer */
+footer{
+    height: 500px;
+    background-color: black;
+    margin-top: 130px;
+    color: floralwhite;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Future{
+    padding-top: 130px;
+    width: 40%;
+}
+.Future h1{
+    font-size: 40px;
+}
+.Future p{
+    margin-top: 20px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-top: 22px;
+}
+.Subscribe{
+    padding-top: 130px;
+}
+.Subscribe h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Subscribe input{
+    background-color: transparent;
+    display: block;
+    width: 325px;
+    height: 40px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.Subscribe button{
+    background-color: white;
+    color: #F15B22;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
