@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* banner */
+
 .banner{
     height: 100vh;
     width: 100%;
@@ -35,18 +38,21 @@
     margin-top: 33px;
     float: right;
 }
+
+/* My failures */
+
+.info-container{
+    display: flex;
+}
+.About{
+    width: 570px;
+}
 .img{
     width: 570px;
 }
 .img img{
     width: 570px;
     height: 723;
-}
-.About{
-    width: 570px;
-}
-.info-container{
-    display: flex;
 }
 .service{
     display: flex;
@@ -62,4 +68,28 @@
 }
 .About p{
     margin-top: 24px;
+}
+
+/* My Plans */
+
+.Plans-titel{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.card img{
+    height: 93px;
+    width: 93px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    align-items: center;
+}
+.card h3{
+    font-weight: bold;
+    font-size: 20px;
 }
